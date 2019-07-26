@@ -1,0 +1,15 @@
+@import "./mixins.scss";
+@import "./sidebar.scss";
+@import "./main-content.scss";
+@import "./button.scss";
+
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 15% 85% auto;
+}

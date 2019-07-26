@@ -1,0 +1,32 @@
+.sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #8bd7d2;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+
+    img {
+      height: 85px;
+      width: 85px;
+    }
+  }
+
+  .sidebar-top-wrapper {
+    justify-content: center;
+
+    .logo {
+      margin-left: -35%;
+    }
+  }
+
+  .button-wrapper {
+    display: grid;
+    grid-gap: 0px;
+    margin-top: 50%;
+  }
+}
