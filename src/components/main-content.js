@@ -1,5 +1,7 @@
 import React from "react";
 
+import TextContent from "./text-content";
+
 import ArticlePic from "../../static/assets/banners/quip.jpg";
 import square1 from "../../static/assets/backgrounds/eventbrite.jpg";
 import square2 from "../../static/assets/backgrounds/ministry-safe.jpg";
@@ -21,41 +23,13 @@ export default function() {
         </div>
 
         <div className="opening-text">
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis
-            vulputate enim nulla aliquet porttitor lacus. In eu mi bibendum
-            neque egestas congue. Nunc mi ipsum faucibus vitae aliquet nec
-            ullamcorper sit amet. Semper eget duis at tellus at urna. Vitae et
-            leo duis ut diam quam nulla. Ipsum a arcu cursus vitae congue mauris
-            rhoncus. Vitae auctor eu augue ut lectus arcu bibendum at. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Mattis vulputate
-            enim nulla aliquet porttitor lacus. In eu mi bibendum neque egestas
-            congue. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit
-            amet. Semper eget duis at tellus at urna. Vitae et leo duis ut diam
-            quam nulla. Ipsum a arcu cursus vitae congue mauris rhoncus. Vitae
-            auctor eu augue ut lectus arcu bibendum at.
-          </div>
+          <TextContent />
         </div>
 
         <div className="squares-wrapper">
           <div className="first-column">
             <div className="squares-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis
-              vulputate enim nulla aliquet porttitor lacus. In eu mi bibendum
-              neque egestas congue. Nunc mi ipsum faucibus vitae aliquet nec
-              ullamcorper sit amet. Semper eget duis at tellus at urna. Vitae et
-              leo duis ut diam quam nulla. Ipsum a arcu cursus vitae congue
-              mauris rhoncus. Vitae auctor eu augue ut lectus arcu bibendum at.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis
-              vulputate enim nulla aliquet porttitor lacus. In eu mi bibendum
-              neque egestas congue. Nunc mi ipsum faucibus vitae aliquet nec
-              ullamcorper sit amet. Semper eget duis at tellus at urna. Vitae et
-              leo duis ut diam quam nulla. Ipsum a arcu cursus vitae congue
-              mauris rhoncus. Vitae auctor eu augue ut lectus arcu bibendum at.
+              <TextContent />
             </div>
             <div className="squares-pic">
               <img src={square1} />
@@ -67,20 +41,7 @@ export default function() {
             </div>
 
             <div className="squares-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis
-              vulputate enim nulla aliquet porttitor lacus. In eu mi bibendum
-              neque egestas congue. Nunc mi ipsum faucibus vitae aliquet nec
-              ullamcorper sit amet. Semper eget duis at tellus at urna. Vitae et
-              leo duis ut diam quam nulla. Ipsum a arcu cursus vitae congue
-              mauris rhoncus. Vitae auctor eu augue ut lectus arcu bibendum at.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis
-              vulputate enim nulla aliquet porttitor lacus. In eu mi bibendum
-              neque egestas congue. Nunc mi ipsum faucibus vitae aliquet nec
-              ullamcorper sit amet. Semper eget duis at tellus at urna. Vitae et
-              leo duis ut diam quam nulla. Ipsum a arcu cursus vitae congue
-              mauris rhoncus. Vitae auctor eu augue ut lectus arcu bibendum at.
+              <TextContent />
             </div>
           </div>
         </div>
