@@ -2,21 +2,13 @@ import React from "react";
 
 import TextContent from "./text-content";
 
-import ArticlePic from "../../static/assets/banners/quip.jpg";
-import square1 from "../../static/assets/backgrounds/eventbrite.jpg";
-import square2 from "../../static/assets/backgrounds/ministry-safe.jpg";
-import logo1 from "../../static/assets/icons/facebook.png";
-import logo2 from "../../static/assets/icons/instagram.png";
-import logo3 from "../../static/assets/icons/twitter.png";
-import logo4 from "../../static/assets/icons/whatsapp.png";
-
 export default function() {
   return (
     <div>
       <div className="main-content-wrapper">
         <div className="header-wrapper">
           <div className="article-pic">
-            <img src={ArticlePic} />
+            <img src="/assets/banners/quip.jpg" />
           </div>
           <h1>New Research: Brushing Helps Teeth!</h1>
           <h3>...not actually new research.</h3>
@@ -32,12 +24,12 @@ export default function() {
               <TextContent />
             </div>
             <div className="squares-pic">
-              <img src={square1} />
+              <img src="/assets/backgrounds/eventbrite.jpg" />
             </div>
           </div>
           <div className="second-column">
             <div className="squares-pic">
-              <img src={square2} />
+              <img src="/assets/backgrounds/ministry-safe.jpg" />
             </div>
 
             <div className="squares-text">
@@ -51,10 +43,10 @@ export default function() {
         <div className="main-content-bottom-wrapper">
           <div className="social-media-wrapper">
             <div>
-              <img src={logo1} />
-              <img src={logo2} />
-              <img src={logo3} />
-              <img src={logo4} />
+              <img src="/assets/icons/facebook.png" />
+              <img src="/assets/icons/instagram.png" />
+              <img src="/assets/icons/twitter.png" />
+              <img src="/assets/icons/whatsapp.png" />
             </div>
           </div>
         </div>
